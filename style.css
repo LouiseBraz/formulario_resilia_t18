@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: black;
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#banner {
+    width:100%;
+}
+
+.conteudo {
+    margin-top: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+form {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+}
+
+form input {
+    margin-top: 10px;
+}
+
+.botao {
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px solid transparent;
+    cursor:pointer;
+}
+
+.container_right {
+    margin-right: 50px;
+
+}
